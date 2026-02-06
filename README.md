@@ -58,6 +58,16 @@ Visit `http://localhost:8050` to verify.
 
 Render will automatically build and deploy your Docker image. Your app will be live at `https://<your-service-name>.onrender.com`
 
+## Deploy Jupyter to Render
+
+* There are prebuilt Docker image on [Jupyter Docker Stack](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html)
+* Render Dashboard > New > Web Service > Existing Image set to jupyter/base-notebook:latest
+* Choose a Name and Region
+* Environment Variables
+   * JUPYTER_TOKEN: YOUR_PASSWORD
+   * PORT: 8888
+* Deployed [here](https://legendre.onrender.com/lab)
+
 ## Project Structure
 
 ```
