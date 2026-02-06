@@ -66,7 +66,6 @@ Render will automatically build and deploy your Docker image. Your app will be l
 * Environment Variables
    * JUPYTER_TOKEN: YOUR_PASSWORD
    * PORT: 8888
-* Deployed [here](https://legendre.onrender.com/lab)
 
 ## Project Structure
 
